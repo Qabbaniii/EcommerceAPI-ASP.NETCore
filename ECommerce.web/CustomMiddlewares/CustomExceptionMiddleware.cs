@@ -109,7 +109,6 @@ namespace ECommerce.web.CustomMiddlewares
 
             }*/
              
-             
         }
 
         private int GetBadRequestErrors(BadRequestException exception,ErrorToReturn response)
