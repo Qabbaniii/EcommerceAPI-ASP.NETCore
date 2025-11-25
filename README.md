@@ -1,6 +1,6 @@
-# eCommerce API Solution
+# eCommerce API
 
-هذا المشروع عبارة عن **eCommerce API** مبني باستخدام **Clean Architecture / Onion Architecture** مع فصل واضح للطبقات.
+هذا المشروع عبارة عن **eCommerce API** مبني باستخدام ** Onion Architecture** .
 
 ---
 
