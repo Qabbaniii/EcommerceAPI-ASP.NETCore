@@ -18,8 +18,7 @@ ECommerceApiSolution/
 │ └── ECommerce.Presentation/ # الطبقة التي تربط الـ API مع الـ Core
 │
 ├── ECommerce.Shared/ # الأكواد المشتركة بين الطبقات
-├── ECommerce.Web/ # طبقة الـ API (Controllers, Endpoints)
-└── Solution Items/ # ملفات الحل العام
+└── ECommerce.Web/ # طبقة الـ API (Controllers, Endpoints)
 ```
 
 ---
