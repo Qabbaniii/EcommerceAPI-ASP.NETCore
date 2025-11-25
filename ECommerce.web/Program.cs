@@ -93,16 +93,39 @@ namespace ECommerce.web
 
                     };
 
-                }); 
+                });
             #endregion
+
+
+            //  Swagger  services
+            builder.Services.AddEndpointsApiExplorer();
+            builder.Services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
+                {
+                    Title = "E-Commerce API",
+                    Version = "v1",
+                    Description = "API for ECommerce"
+                });
+            });
+
 
             var app = builder.Build();
 
             var scope = app.Services.CreateScope();
             var objectSeeding = scope.ServiceProvider.GetRequiredService<IDataSeeding>();
             objectSeeding.DataSeedAsync();
-            objectSeeding.IdentityDataSeedAsync();  
+            objectSeeding.IdentityDataSeedAsync();
 
+            if (app.Environment.IsDevelopment())
+            {
+                app.UseSwagger();
+                app.UseSwaggerUI(c =>
+                {
+                    c.SwaggerEndpoint("/swagger/v1/swagger.json", "E-Commerce API v1");
+                    c.RoutePrefix = string.Empty;
+                });
+            }
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
