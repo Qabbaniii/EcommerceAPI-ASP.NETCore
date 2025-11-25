@@ -27,7 +27,7 @@ ECommerceApiSolution/
 
 ### 1 المتطلبات الأساسية
 
-* .NET 9 أو أعلى
+* .NET 9 
 * SQL Server
 * Visual Studio
 
