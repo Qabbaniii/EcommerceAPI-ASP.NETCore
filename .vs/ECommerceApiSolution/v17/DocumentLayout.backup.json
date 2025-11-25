@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "ECommerce.web\\Program.cs",
               "ToolTip": "D:\\Route\\WorkSpace\\ECommerceApiSolution\\ECommerce.web\\Program.cs",
               "RelativeToolTip": "ECommerce.web\\Program.cs",
-              "ViewState": "AgIAAGgAAAAAAAAAAAAowHoAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHoAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-25T22:52:22.843Z",
               "EditorCaption": ""
@@ -55,8 +55,7 @@
               "RelativeToolTip": "ECommerce.web\\CustomMiddlewares\\CustomExceptionMiddleware.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAG4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T22:40:16.69Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T22:40:16.69Z"
             },
             {
               "$type": "Document",
@@ -68,8 +67,7 @@
               "RelativeToolTip": "ECommerce.web\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-25T22:39:40.883Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T22:39:40.883Z"
             }
           ]
         },
