@@ -10,6 +10,7 @@ namespace ECommerce.Service.Specifications
 {
     public class OrderWithPaymentIntentIdSpecifications : BaseSpecifications<Order, Guid>
     {
+
         public OrderWithPaymentIntentIdSpecifications(string intentId) : base(o=>o.PaymentIntentId ==intentId)
         {
         }
